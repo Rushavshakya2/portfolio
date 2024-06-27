@@ -1,0 +1,65 @@
+.service{
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: black;
+    font-size: 65px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.title h2 span{
+    color: #df1732;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding: 30px 80px;
+    padding-top: 20px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: #df1732;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card img{
+    text-align: center;
+    margin: 25px 0px;
+}
+h5{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgb(82, 80, 80);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid #df1732;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 2px solid #df1732;
+    cursor: pointer;
+}

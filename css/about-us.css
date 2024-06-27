@@ -1,0 +1,53 @@
+#about-me {
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-me_discription {
+    width: 550px;
+}
+
+.about-me_discription h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.about-me_discription h5{
+    font-size: 25px;
+    color: #df1732;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.about-me_discription p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+button{
+    background-color: #df1732;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin: 40px 0px;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 2px solid #df1732;
+    cursor: pointer;
+}
